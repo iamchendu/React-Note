@@ -1,0 +1,24 @@
+.active{
+    color: red;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    padding:0px 10px;
+}
+.container a{
+    text-decoration: none;
+}
+.error{
+    color: red;
+    font-size: 40px;
+}

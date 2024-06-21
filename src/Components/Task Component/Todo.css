@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+.control{
+    width: 100%;
+    height: 25px;
+    /* border: transparent; */
+    border-radius: 6px;
+}
+.group{
+    padding: 10px 0px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 8px ;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* border: transparent;  */
+    border-radius: 7px;
+}
+.todo{
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: #d1d1d1;
+    padding: 20px;
+}
+.todoform, .todolist{
+    flex: 45%;
+    padding: 20px;
+}
+.todoitem{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: #fff;
+}
+.todoitem h3{
+    margin-bottom: 10px;
+}
+.todoitem button{
+    margin-top: 10px;
+    border: transparent; 
+    margin-right: 5px;
+}
+.completed{
+    background-color: rgb(170, 242, 17);
+}
+.notcompleted{
+    background-color: red;
+    color: white;
+}
